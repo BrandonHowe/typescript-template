@@ -12,7 +12,7 @@
         "dev": "nodemon",
         "tsc": "tsc",
         "build": "npm run tsc",
-        "test": "npm run fresh-testdb && cross-env NODE_ENV=test mocha -r ./register.js 'src/**/*.test.ts' --exit",
+        "test": "npm run fresh-testdb && cross-env NODE_ENV=test mocha -r ./register.js 'src/**/*.spec.ts' --exit",
         "test-coverage": "nyc npm test"
     },
     "repository": {
